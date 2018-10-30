@@ -1,0 +1,27 @@
+{
+  "name": "create-webpack-vue-multi-page-app",
+  "version": "0.0.1",
+  "description": "Create a \"multiple-vue-page\" app by running one command",
+  "main": "index.js",
+  "bin": "./bin/create-webpack-vue-multi-page-app.js",
+  "scripts": {
+    "test": "node ./bin/create-webpack-vue-multi-page-app test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fancyboynet/create-webpack-vue-multi-page-app.git"
+  },
+  "keywords": [
+    "webpack",
+    "multiple",
+    "vue",
+    "page"
+  ],
+  "author": "Fancy",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "github-download": "^0.5.0",
+    "shelljs": "^0.8.2"
+  }
+}
