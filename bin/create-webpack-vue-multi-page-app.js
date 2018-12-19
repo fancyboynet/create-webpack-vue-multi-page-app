@@ -5,7 +5,7 @@ const chalk = require('chalk')
 const shelljs = require('shelljs')
 let app = process.argv.slice(2)[0]
 if (!app) {
-  console.log(chalk.red('Need an app name: $ npx create-webpack-multi-page-app appName'))
+  console.log(chalk.red('Need an app name: $ npx create-webpack-vue-multi-page-app appName'))
   process.exit(1)
 }
 console.log(chalk.green(`Creating a new app '${app}'...`))
