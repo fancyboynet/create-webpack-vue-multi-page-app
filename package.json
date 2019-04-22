@@ -1,6 +1,6 @@
 {
   "name": "create-webpack-vue-multi-page-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a \"multiple-vue-page\" app by running one command",
   "main": "index.js",
   "bin": "./bin/create-webpack-vue-multi-page-app.js",

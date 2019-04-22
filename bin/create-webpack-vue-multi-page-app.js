@@ -16,7 +16,8 @@ ghdownload('git@github.com:fancyboynet/webpack-vue-multi-page-scaffold.git', app
   })
   .on('end', function() {
     console.log(chalk.green('Installing packages...'))
-    shelljs.exec(`cd ${app} && npm i`, function (code, stdout, stderr) {
+    const inStallCommand = shelljs.which('yarn') ? 'yarn' : 'npm i'
+    shelljs.exec(`cd ${app} && ${inStallCommand}`, function (code, stdout, stderr) {
       console.log(chalk.green('Install complete.'))
     })
   })
